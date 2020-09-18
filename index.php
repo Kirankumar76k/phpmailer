@@ -6,7 +6,10 @@ require 'includes/PHPMailer.php';
 require 'includes/SMTP.php';
 require 'includes/Exception.php';
 
+
 use PHPMailer\PHPMailer\PHPMailer;
+
+
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
@@ -28,7 +31,7 @@ try {
     //Recipients
     $mail->setFrom('kirankumar76k@gmail.com');
    // $mail->addAddress('', 'Joe User');     // Add a recipient
-    $mail->addAddress('kirankumar76k@gmail.com');               // Name is optional
+    $mail->addAddress('kiranrockzz179@gmail.com');               // Name is optional
    // $mail->addReplyTo('info@example.com', 'Information');
   //  $mail->addCC('cc@example.com');
 //$mail->addBCC('bcc@example.com');
